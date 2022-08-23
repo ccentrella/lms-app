@@ -1,0 +1,14 @@
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\Record Pro Functions\bin\Debug\Record Pro Functions.XML
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\Record Pro Functions\bin\Debug\Record Pro Functions.dll
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\Record Pro Functions\bin\Debug\Record Pro Functions.pdb
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\Record Pro Functions\obj\Debug\Record Pro Functions.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\Record Pro Functions\obj\Debug\Record Pro Functions.dll
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\Record Pro Functions\obj\Debug\Record Pro Functions.pdb
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\Record Pro Functions\bin\Debug\Record Pro Functions.XML
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\Record Pro Functions\bin\Debug\Record Pro Functions.dll
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\Record Pro Functions\bin\Debug\Record Pro Functions.pdb
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\Record Pro Functions\obj\Debug\Record Pro Functions.dll
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\Record Pro Functions\obj\Debug\Record Pro Functions.pdb
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\Record Pro Functions\obj\Debug\Record Pro Functions.csprojResolveAssemblyReference.cache
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\Record Pro Functions\obj\Debug\Record Pro Functions.dll
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\Record Pro Functions\obj\Debug\Record Pro Functions.pdb

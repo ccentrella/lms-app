@@ -1,0 +1,70 @@
+﻿<Window x:Class="RecordPro.AddStudentsDialog"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		Title="Add User"
+		Width="300"
+		MinHeight="150"
+		MaxHeight="350" SizeToContent="Height"
+		WindowStyle="None"
+		Name="dialog"
+		ShowInTaskbar="False"
+		Topmost="True"
+		WindowStartupLocation="CenterOwner"
+		ResizeMode="NoResize"
+		WindowChrome.WindowChrome="{DynamicResource CrystalChrome}"
+		Style="{DynamicResource CrystalWindows}"
+		BorderThickness="1"
+		Loaded="dialog_Loaded">
+	<Window.CommandBindings>
+		<CommandBinding Command="SystemCommands.CloseWindowCommand"
+						CanExecute="SystemCommands_CanExecute"
+						Executed="SystemCommands_Executed" />
+	</Window.CommandBindings>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="27" />
+			<RowDefinition />
+		</Grid.RowDefinitions>
+
+		<Label Content="{Binding Title,ElementName=dialog}"
+			   Padding="0"
+			   HorizontalContentAlignment="Center"
+			   VerticalContentAlignment="Center"
+			   Style="{DynamicResource CrystalHeadings2}"
+			   Background="{DynamicResource CrystalBackgroundFill2}" />
+		<StackPanel Name="chrome"
+					Orientation="Horizontal"
+					Margin="0,-1,-1,0"
+					HorizontalAlignment="Right"
+					VerticalAlignment="Top">
+			<Button Content="X"
+					Template="{DynamicResource CrystalChromeButton}"
+					Focusable="False"
+					Margin="0"
+					Background="{DynamicResource CloseChromeButtonBackground}"
+					Foreground="{DynamicResource CloseChromeButtonForeground}"
+					ToolTip="Close"
+					Command="SystemCommands.CloseWindowCommand"
+					WindowChrome.IsHitTestVisibleInChrome="True"
+					Height="20"
+					Width="35"
+					BorderThickness="0" />
+		</StackPanel>
+		<Grid Grid.Row="1"
+			  Margin="5">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto" />
+				<RowDefinition />
+			</Grid.RowDefinitions>
+			<Label Name="Instruction"
+				   Style="{DynamicResource Label2}"
+				   Content="Please click the new user to add:" />
+			<ScrollViewer Margin="0,7,0,0"
+						  VerticalScrollBarVisibility="Auto"
+						  Grid.Row="1">
+				<StackPanel Name="students"
+							Grid.Row="1" />
+			</ScrollViewer>
+		</Grid>
+	</Grid>
+</Window>

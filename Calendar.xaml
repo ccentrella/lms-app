@@ -1,0 +1,158 @@
+﻿<Page x:Class="RecordPro.Calendar"
+	  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	  xmlns:local="clr-namespace:RecordPro"
+	  WindowTitle="View Calendar - Record Pro"
+	  Loaded="Page_Loaded" Title="View Assignments"
+	  Unloaded="Page_Unloaded">
+	<Page.CommandBindings>
+		<CommandBinding Command="Copy"
+						CanExecute="CommandBinding_CanExecute"
+						Executed="CommandBinding_Executed" />
+		<CommandBinding Command="Delete"
+						CanExecute="CommandBinding_CanExecute"
+						Executed="CommandBinding_Executed" />
+	</Page.CommandBindings>
+	<Page.Resources>
+		<local:UserToolTipConverter x:Key="UserToolTipConverter" />
+		<local:GradeConverter	x:Key="GradeConverter" />
+		<local:GradeVisibilityConverter	x:Key="GradeVisibilityConverter" />
+		<local:Records x:Key="Records" />
+		<ContextMenu x:Key="cMenu">
+			<MenuItem Header="_Copy"
+					  Command="Copy" />
+			<Separator />
+			<MenuItem Header="_Delete"
+					  Command="Delete" />
+			<MenuItem Header="_Modify" />
+		</ContextMenu>
+		<HierarchicalDataTemplate DataType="Records">
+			<TreeViewItem>
+				<TreeViewItem.Header>
+					<Grid>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition />
+							<ColumnDefinition Width="Auto" />
+						</Grid.ColumnDefinitions>
+						<TextBlock Text="{Binding XPath=UserName}"
+								   Style="{DynamicResource UserLabels}"
+								   ToolTip="{Binding Path=Text,RelativeSource={RelativeSource Self}}" />
+						<Label Content="{Binding RelativeSource={RelativeSource Self},Path=Items.Count}"
+							   Style="{DynamicResource GLevelLabels}"
+							   ToolTip="{Binding Path=Content, RelativeSource={RelativeSource Self},Converter={StaticResource UserToolTipConverter}}" />
+					</Grid>
+				</TreeViewItem.Header>
+			</TreeViewItem>
+		</HierarchicalDataTemplate>
+		<HierarchicalDataTemplate DataType="Record">
+			<Grid>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto" />
+					<ColumnDefinition />
+					<ColumnDefinition Width="Auto" />
+				</Grid.ColumnDefinitions>
+				<Label Content="{Binding XPath=Course}"
+					   ToolTip="{Binding Content,RelativeSource={RelativeSource Self}}" />
+				<TextBlock Grid.Column="1"
+						   Style="{StaticResource TimeStyle}"
+						   Text="{Binding XPath=Time}"
+						   ToolTip="{Binding Text,RelativeSource={RelativeSource Self}}" />
+				<Label Grid.Column="2"
+					   Content="{Binding XPath=Grade}"
+					   Style="{Binding Path=Content,RelativeSource={RelativeSource Self},Converter={StaticResource GradeConverter}}"
+					   Visibility="{Binding Path=Content, RelativeSource={RelativeSource Self},Converter={StaticResource GradeVisibilityConverter}}" />
+			</Grid>
+		</HierarchicalDataTemplate>
+		<DataTemplate DataType="Data">
+			<TextBlock Style="{DynamicResource DataStyle}"
+					   Text="{Binding XPath=Data}">
+				<TextBlock.ToolTip>
+					<Grid>
+						<Grid.RowDefinitions>
+							<RowDefinition Height="Auto" />
+							<RowDefinition />
+						</Grid.RowDefinitions>
+						<Label Style="{DynamicResource NotesHeaderStyle}"
+							   Content="Notes" />
+						<TextBlock Style="{DynamicResource NotesStyle}"
+								   Text="{Binding XPath=Notes}" />
+					</Grid>
+				</TextBlock.ToolTip></TextBlock>
+		</DataTemplate>
+	</Page.Resources>
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition />
+			<ColumnDefinition Width="Auto" />
+			<ColumnDefinition Width="200" />
+		</Grid.ColumnDefinitions>
+		<Viewbox Stretch="Uniform"
+				 Name="calendarViewbox">
+			<Calendar Name="calendar"
+					  IsTodayHighlighted="True"
+					  Style="{DynamicResource CalendarStyle}"
+					  SelectedDatesChanged="calendar_SelectedDatesChanged" />
+		</Viewbox>
+		<Popup Name="CalendarPopup"
+			   Width="300"
+			   Height="Auto"
+			   PlacementTarget="{Binding ElementName=calendar}"
+			   Placement="Right">
+			<Grid Background="{DynamicResource CrystalBackgroundFill3}">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="40" />
+					<RowDefinition />
+					<RowDefinition Height="Auto" />
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="100" />
+					<ColumnDefinition />
+				</Grid.ColumnDefinitions>
+				<Label Style="{DynamicResource CrystalHeadings2}"
+					   Grid.ColumnSpan="2"
+					   Content="View Everything in a Flash"
+					   HorizontalContentAlignment="Center"
+					   VerticalContentAlignment="Center"
+					   Background="{DynamicResource CrystalBackgroundFill2}" />
+				<Image Source="View Calendar.png"
+					   Grid.Row="1" />
+				<TextBlock Style="{DynamicResource DataStyle2}"
+						   HorizontalAlignment="Center"
+						   VerticalAlignment="Center"
+						   Grid.Row="1"
+						   Grid.Column="1"
+						   Text="This view allows you to view and modify the time, grade, data, and notes, for each and every assignment." />
+				<Button HorizontalAlignment="Right"
+						Grid.Row="2"
+						Grid.Column="1"
+						Content="OK, Got It"
+						Style="{DynamicResource CrystalDialogButton}"
+						Click="CalendarPopupOKButton_Click" />
+			</Grid>
+		</Popup>
+		<GridSplitter ResizeDirection="Columns"
+					  Grid.Column="1"
+					  Width="3"
+					  Background="{DynamicResource CrystalBorder}"
+					  ResizeBehavior="PreviousAndNext" />
+		<Grid Name="assignmentPopup"
+			  Background="{DynamicResource CrystalBackgroundFill}"
+			  Grid.Column="2"
+			  MinWidth="100">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto" />
+				<RowDefinition />
+			</Grid.RowDefinitions>
+			<Label Style="{DynamicResource CrystalHeadings2}"
+				   HorizontalAlignment="Center"
+				   Content="{Binding Path=SelectedDate.Date,ElementName=calendar}"
+				   ContentStringFormat="{}{0:D}" />
+			<ScrollViewer VerticalScrollBarVisibility="Auto"
+						  Grid.Row="1">
+				<TreeView Name="records"
+						  VirtualizingStackPanel.IsVirtualizing="True"
+						  KeyDown="records_KeyDown" />
+			</ScrollViewer>
+		</Grid>
+	</Grid>
+</Page>

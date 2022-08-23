@@ -1,0 +1,59 @@
+﻿<Page x:Class="RecordPro.ViewRecord"
+	  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	  mc:Ignorable="d"
+	  Title="View Reports"
+	  Loaded="Page_Loaded">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto" />
+			<RowDefinition />
+		</Grid.RowDefinitions>
+		<Label x:Name="userLabel"
+			   Style="{DynamicResource CrystalHeadings2}"
+			   Background="{DynamicResource HeaderFooterBackground}"
+			   Content="Welcome!"
+			   MouseLeftButtonDown="userLabel_MouseLeftButtonDown" />
+		<TabControl x:Name="Grades"
+					Grid.Row="1"
+					TabStripPlacement="Left" />
+		<Popup Name="StatisticsPopup"
+			   Width="300"
+			   Height="Auto"
+			   PlacementTarget="{Binding ElementName=userLabel}">
+			<Grid Background="{DynamicResource CrystalBackgroundFill3}">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="40" />
+					<RowDefinition />
+					<RowDefinition Height="Auto" />
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="100" />
+					<ColumnDefinition />
+				</Grid.ColumnDefinitions>
+				<Label Style="{DynamicResource CrystalHeadings2}"
+					   Grid.ColumnSpan="2"
+					   Content="Great Organizing At All Times"
+					   HorizontalContentAlignment="Center"
+					   VerticalContentAlignment="Center"
+					   Background="{DynamicResource CrystalBackgroundFill2}" />
+				<Image Source="Statistics.png"
+					   Grid.Row="1" />
+				<TextBlock Style="{DynamicResource DataStyle2}"
+						   HorizontalAlignment="Center"
+						   VerticalAlignment="Center"
+						   Grid.Row="1"
+						   Grid.Column="1"
+						   Text="This view allows you to view great statistics, such as averages, grades, and daily times." />
+				<Button HorizontalAlignment="Right"
+						Grid.Row="2"
+						Grid.Column="1"
+						Content="OK, Got It"
+						Style="{DynamicResource CrystalDialogButton}"
+						Click="StatisticsPopupOKButton_Click" />
+			</Grid>
+		</Popup>
+	</Grid>
+</Page>

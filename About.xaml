@@ -1,0 +1,64 @@
+﻿<Page x:Class="RecordPro.About"
+	  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	  xmlns:sys="clr-namespace:System.Reflection;assembly=mscorlib"
+	  mc:Ignorable="d"
+	  d:DesignHeight="300"
+	  d:DesignWidth="550"
+	  Title="About"
+	  Loaded="Page_Loaded">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto" />
+			<RowDefinition />
+			<RowDefinition MinHeight="80" />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+		<Label Style="{DynamicResource CrystalHeadingsDark}"
+			   Content="About Record Pro"
+			   HorizontalAlignment="Center" />
+		<Grid Grid.Row="1">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto" />
+				<RowDefinition />
+			</Grid.RowDefinitions>
+			<Image Source="Record Pro 2017 Logo Large.png"
+				   Grid.RowSpan="2" />
+			<Label Style="{DynamicResource CrystalHeadings2Dark}"
+				   Content="2017 Edition" />
+			<Label Name="Version"
+				   Style="{DynamicResource Label2}"
+				   Grid.Row="1"
+				   ContentStringFormat="Product Version: {0}" />
+		</Grid>
+
+		<FlowDocumentScrollViewer Grid.Row="2"
+								  Padding="5"
+								  VerticalAlignment="Bottom">
+			<FlowDocument>
+				<Paragraph>
+					<Run Text="© 2017-2018 Autosoft Corporation. All rights reserved." />
+					<LineBreak />
+					<Run Text="This product cannot be modified, copied, or decompiled, without the express permission of Autosoft." />
+				</Paragraph>
+				<Paragraph>
+					<Run Text="Unauthorized reproduction or modification of this software may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent under the law." />
+				</Paragraph>
+				<Paragraph>
+					<Run Text="Icons were produced by Metro Studio 4 (© 2001-2015 Syncfusion Inc.)." />
+					<LineBreak />
+					<Run Text="The Record Pro logo and splash screen were produced by Microsoft Word 2010 (© 2010 Microsoft Corporation)." />
+				</Paragraph>
+			</FlowDocument>
+		</FlowDocumentScrollViewer>
+
+		<Button Content="_Close"
+				IsDefault="True"
+				Grid.Row="3"
+				HorizontalAlignment="Right"
+				Style="{DynamicResource CrystalDialogButton}"
+				Click="Button_Click" />
+	</Grid>
+</Page>

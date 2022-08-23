@@ -1,0 +1,59 @@
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\bin\Debug\Record Pro.exe.config
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\bin\Debug\Record Pro.exe
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\bin\Debug\Record Pro.pdb
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\bin\Debug\en-US\Record Pro.resources.dll
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\bin\Debug\Record Pro Functions.dll
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\bin\Debug\Record Pro Functions.pdb
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\bin\Debug\Record Pro Functions.xml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\Autosoft Record Pro.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\About.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\AddStudentsDialog.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\App.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\Crystal 2017 Modern Supplement.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\Crystal 2017 Modern.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\InputDialog.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\ManageCourses.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\ManageStudents.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\NewUser.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\ViewRecord.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\MainWindow.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\Home.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\Welcome.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\About.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\AddStudentsDialog.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\App.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\Calendar.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\InputDialog.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\ManageCourses.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\ManageStudents.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\NewUser.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\ViewRecord.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\UpdateRecord.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\MainWindow.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\SettingsDialog.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\Home.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\Welcome.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\Record Pro_MarkupCompile.cache
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\Record Pro_MarkupCompile.lref
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\Calendar.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\UpdateRecord.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\SettingsDialog.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\Record Pro.g.en-US.resources
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\en-US\Record Pro.resources.dll
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\Record Pro.exe
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\Record Pro.pdb
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\SignIn1.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\SignIn2.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\SignIn1.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\SignIn2.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\HomePane.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\HomePane.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\Record Pro_Content.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\bin\Debug\Autosoft Clock.exe
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\ProductRegistration.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\obj\Debug\ProductRegistration.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Autosoft Record Pro\bin\Debug\Terms.html
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\bin\Debug\Record Pro.exe.config
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Record Pro.exe
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Record Pro.pdb

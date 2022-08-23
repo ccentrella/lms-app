@@ -1,0 +1,54 @@
+﻿<Window x:Class="RecordPro.InputDialog"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		Title="Enter Text"
+		Width="350"
+		SizeToContent="Height"
+		WindowStyle="None"
+		Name="inputDialog"
+		ShowInTaskbar="False"
+			WindowStartupLocation="CenterOwner"
+		ResizeMode="NoResize"
+		WindowChrome.WindowChrome="{DynamicResource CrystalChrome}"
+		Style="{DynamicResource CrystalWindows}" BorderThickness="1">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="27" />
+			<RowDefinition />
+		</Grid.RowDefinitions>
+
+		<Label Content="{Binding Title,ElementName=inputDialog}"
+			   Padding="0"
+			   HorizontalContentAlignment="Center"
+			   VerticalContentAlignment="Center"
+			   Style="{DynamicResource CrystalHeadings2}"
+			   Background="{DynamicResource CrystalBackgroundFill2}" />
+		<Grid Grid.Row="1"
+			  Margin="5">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto" />
+				<RowDefinition Height="Auto" />
+				<RowDefinition Height="Auto" />
+			</Grid.RowDefinitions>
+			<Label Name="Instruction"
+				   Style="{DynamicResource Label2}"
+				   Content="Enter text below:" />
+			<TextBox Grid.Row="1"
+					 Name="userInput"
+					 SpellCheck.IsEnabled="True" />
+			<StackPanel Orientation="Horizontal"
+						Margin="0,7,0,0"
+						Grid.Row="2"
+						HorizontalAlignment="Right">
+				<Button Content="_OK"
+						IsDefault="True"
+						Style="{DynamicResource CrystalDialogButton}"
+						Click="OKButton_Click" />
+				<Button Content="_Cancel"
+						IsCancel="True"
+						Style="{DynamicResource CrystalDialogButton}"
+						Click="CancelButton_Click" />
+			</StackPanel>
+		</Grid>
+	</Grid>
+</Window>

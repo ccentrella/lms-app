@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Record Pro Functions</name>
+    </assembly>
+    <members>
+        <member name="T:Record_Pro_Functions.BasicFunctions">
+            <summary>
+            Important functions used by many Autosoft programs
+            </summary>
+        </member>
+        <member name="M:Record_Pro_Functions.BasicFunctions.GetValue(System.String,System.String)">
+            <summary>
+            Acquire the appropriate value from the user file.
+            </summary>
+            <param name="userData">The data for the current user</param>
+            <param name="propertyName">The property to find</param>
+            <returns>Returns the data for the property. If no data is found, a blank string is returned.</returns>
+        </member>
+        <member name="M:Record_Pro_Functions.BasicFunctions.ConvertToQuotes(System.String)">
+            <summary>
+            Converts a formatted string to one appropriate for viewing
+            </summary>
+            <param name="text">The text to change</param>
+            <returns>A string with the quotation marks updated</returns>
+        </member>
+        <member name="M:Record_Pro_Functions.BasicFunctions.EnumerateStrings(System.String)">
+            <summary>
+            Enumerates through the string and returns a list of strings.
+            </summary>
+            <param name="data">The string containing data</param>
+            <returns>Returns a list of strings that have been found</returns>
+        </member>
+        <member name="M:Record_Pro_Functions.BasicFunctions.EnumerateStrings(System.String,System.String)">
+            <summary>
+            Enumerates through the string and returns a list of strings.
+            </summary>
+            <param name="userData">The data for the current user</param>
+            <param name="property">The property to find</param>
+            <returns>Returns a list of strings that have been found</returns>
+        </member>
+        <member name="M:Record_Pro_Functions.BasicFunctions.EnumerateIntegers(System.String)">
+            <summary>
+            Enumerates through the string and returns a list of integers.
+            </summary>
+            <param name="data">The string containing data</param>
+            <returns>Returns a list of integers that have been found</returns>
+        </member>
+        <member name="M:Record_Pro_Functions.BasicFunctions.EnumerateIntegers(System.String,System.String)">
+            <summary>
+            Enumerates through the string and returns a list of integers.
+            </summary>
+            <param name="userData">The data for the current user</param>
+            <param name="property">The property to find</param>
+            <returns>Returns a list of integers that have been found</returns>
+        </member>
+        <member name="M:Record_Pro_Functions.BasicFunctions.GetWelcomeMessage(System.String)">
+            <summary>
+            Returns a welcome message, which will be seen by the user
+            </summary>
+            <param name="name">The name of the user</param>
+            <returns>A welcome message, acontaining the user's name</returns>
+        </member>
+        <member name="M:Record_Pro_Functions.BasicFunctions.ReplaceValue(System.String,System.String,System.String)">
+            <summary>
+            Replaces a string containing the function with the new data, returning a string
+            </summary>
+            <param name="userData">The data containing the function</param>
+            <param name="propertyName">The name of the property</param>
+            <param name="newData">The new data to be used</param>
+            <returns>A string containing the new data</returns>
+        </member>
+        <member name="M:Record_Pro_Functions.BasicFunctions.ReplaceValue(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Replaces a string containing the function with the new data, returning a string
+            </summary>
+            <param name="userData">The data containing the function</param>
+            <param name="propertyName">The name of the property</param>
+            <param name="newData">The new data to be used</param>
+            <param name="createLine">Specifies whether a new line should be created if the name is not found</param>
+            <returns>A string containing the new data</returns>
+        </member>
+        <member name="M:Record_Pro_Functions.BasicFunctions.GetTimeLabel(System.Double)">
+            <summary>
+            Converts the specified timespan to a readable string
+            </summary>
+            <param name="seconds">The total seconds which will be converted</param>
+            <returns>The new string returned</returns>
+        </member>
+        <member name="M:Record_Pro_Functions.BasicFunctions.GetTimeLabel(System.TimeSpan)">
+            <summary>
+            Converts the specified timespan to a readable string
+            </summary>
+            <param name="time">The timespan to convert</param>
+            <returns>The new string returned</returns>
+        </member>
+        <member name="M:Record_Pro_Functions.BasicFunctions.GetFriendlyText(System.String[])">
+            <summary>
+            Converts a list of strings to friendly text
+            </summary>
+            <param name="array">The list of strings</param>
+            <returns>The list of elements converted to a friendly string</returns>
+        </member>
+    </members>
+</doc>

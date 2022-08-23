@@ -1,0 +1,27 @@
+﻿<Page x:Class="RecordPro.SignIn2"
+	  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	  mc:Ignorable="d"
+	  d:DesignHeight="70"
+	  d:DesignWidth="200"
+	  Title="SignIn2"
+	  Loaded="Page_Loaded">
+
+	<Grid Width="198">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto" />
+			<RowDefinition Height="Auto" />
+			<RowDefinition />
+		</Grid.RowDefinitions>
+		<Label Name="status"
+			   Content="Please enter password." />
+		<PasswordBox Grid.Row="1"
+				 Name="Password" />
+		<Button Grid.Row="2"
+				Content="Sign In"
+				IsDefault="True"
+				Click="Button_Click" />
+	</Grid>
+</Page>

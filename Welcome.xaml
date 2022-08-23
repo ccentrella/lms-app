@@ -1,0 +1,42 @@
+﻿<Page x:Class="RecordPro.Welcome"
+	  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	  mc:Ignorable="d"
+	  d:DesignHeight="300"
+	  d:DesignWidth="300"
+	  Title="Sign In"
+	 >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Label Style="{DynamicResource CrystalHeadingsDark}"
+			   Content="Welcome to Record Pro 2017"
+			   HorizontalAlignment="Center" />
+        <FlowDocumentScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto"
+								  HorizontalContentAlignment="Center"
+								  Grid.Row="1">
+            <FlowDocument>
+                <Paragraph Style="{DynamicResource FlowDataStyle}">
+                    <Run Text="Record Pro includes student profiles, automatic average grades, average times, and much more!">
+                    </Run>
+                    <LineBreak />
+                    <LineBreak />
+                    <Run Text="Built-in organization carries away the woes of hand calculation." />
+                    <LineBreak />
+                    <LineBreak />
+                    <Run Text="Log on or create an account to continue." />
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+        <Button Grid.Row="2"
+				Content="_Create Account"
+				HorizontalAlignment="Center"
+				Padding="25,5"
+				Click="Button_Click" />
+    </Grid>
+</Page>

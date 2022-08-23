@@ -1,0 +1,169 @@
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\bin\Debug\Record Pro.exe.config
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Record Pro.exe
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Record Pro.pdb
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Record Pro 2017.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\About.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\AddStudentsDialog.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\App.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Crystal 2017 Modern Supplement.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Crystal 2017 Modern.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\HomePane.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\InputDialog.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\ManageCourses.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\ManageStudents.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\ProductRegistration.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\SignIn1.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\SignIn2.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\ViewRecord.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\MainWindow.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Home.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Welcome.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\About.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\AddStudentsDialog.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\App.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Calendar.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\HomePane.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\InputDialog.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\ManageCourses.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\ManageStudents.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\NewUser.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\ProductRegistration.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\SignIn1.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\SignIn2.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\ViewRecord.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\UpdateRecord.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\MainWindow.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\SettingsDialog.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Home.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Welcome.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Record Pro_Content.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Record Pro_MarkupCompile.cache
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Record Pro_MarkupCompile.lref
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\bin\Debug\Terms.html
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\bin\Debug\Autosoft Clock.exe
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\bin\Debug\Record Pro.exe
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\bin\Debug\Record Pro.pdb
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\bin\Debug\en-US\Record Pro.resources.dll
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\bin\Debug\Record Pro Functions.dll
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\bin\Debug\Record Pro Functions.pdb
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\bin\Debug\Record Pro Functions.xml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Calendar.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\NewUser.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\UpdateRecord.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\SettingsDialog.baml
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\Record Pro.g.en-US.resources
+C:\Users\Thomas\Documents\Visual Studio 2013\Projects\Record Pro 2017\obj\Debug\en-US\Record Pro.resources.dll
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Record Pro 2017.csprojResolveAssemblyReference.cache
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\About.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\AddStudentsDialog.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\App.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Crystal 2017 Modern Supplement.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Crystal 2017 Modern.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\HomePane.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\InputDialog.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\ManageCourses.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\ManageStudents.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\ProductRegistration.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\SignIn1.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\SignIn2.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\ViewRecord.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\MainWindow.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Home.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Welcome.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\About.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\AddStudentsDialog.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\App.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Calendar.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\HomePane.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\InputDialog.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\ManageCourses.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\ManageStudents.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\NewUser.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\ProductRegistration.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\SignIn1.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\SignIn2.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\ViewRecord.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\UpdateRecord.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\MainWindow.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\SettingsDialog.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Home.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Welcome.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Record Pro_Content.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Record Pro_MarkupCompile.cache
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Record Pro_MarkupCompile.lref
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Record Pro.exe
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Record Pro.pdb
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\Terms.html
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\Autosoft Clock.exe
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\Record Pro.exe.config
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\Record Pro.exe
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\Record Pro.pdb
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\en-US\Record Pro.resources.dll
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\Record Pro Functions.dll
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\Record Pro Functions.pdb
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\Record Pro Functions.xml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Calendar.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\NewUser.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\UpdateRecord.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\SettingsDialog.baml
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Record Pro.g.en-US.resources
+C:\Users\usa4c_kubtwsw\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\en-US\Record Pro.resources.dll
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\Terms.html
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\Autosoft Clock.exe
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\Record Pro.exe.config
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\Record Pro.exe
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\Record Pro.pdb
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\en-US\Record Pro.resources.dll
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\Record Pro Functions.dll
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\Record Pro Functions.pdb
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\About.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\AddStudentsDialog.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\App.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Crystal 2017 Modern Supplement.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Crystal 2017 Modern.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\HomePane.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\InputDialog.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\ManageCourses.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\ManageStudents.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\ProductRegistration.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\SignIn1.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\SignIn2.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\ViewRecord.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\MainWindow.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Home.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Welcome.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\About.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\AddStudentsDialog.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\App.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Calendar.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\HomePane.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\InputDialog.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\ManageCourses.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\ManageStudents.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\NewUser.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\ProductRegistration.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\SignIn1.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\SignIn2.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\ViewRecord.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\UpdateRecord.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\MainWindow.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\SettingsDialog.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Home.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Welcome.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Record Pro_Content.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Record Pro_MarkupCompile.cache
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Record Pro_MarkupCompile.lref
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Record Pro 2017.csproj.CoreCompileInputs.cache
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Calendar.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\NewUser.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\UpdateRecord.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\SettingsDialog.baml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Record Pro.g.en-US.resources
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\en-US\Record Pro.resources.dll
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Record Pro.exe
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Record Pro.pdb
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\bin\Debug\Record Pro Functions.xml
+C:\Users\usa4c\OneDrive\Documents\Visual Studio 2017\Projects\Record Pro 2017\obj\Debug\Record Pro 2017.csprojResolveAssemblyReference.cache

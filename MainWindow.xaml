@@ -1,0 +1,194 @@
+﻿<Window x:Class="RecordPro.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		Title="Record Pro 2017"
+		Name="mainWindow"
+		Height="400"
+		Width="800"
+		MinWidth="200"
+		Icon="Record Pro 2017 Logo.png"
+		UseLayoutRounding="True"
+		Style="{DynamicResource CrystalWindows}"
+		BorderThickness="8"
+		WindowChrome.WindowChrome="{DynamicResource CrystalChrome}"
+		Loaded="Window_Loaded"
+		StateChanged="mainWindow_StateChanged"
+		Background="{DynamicResource HeaderFooterBackground}"
+		Closing="mainWindow_Closing">
+    <Window.CommandBindings>
+        <CommandBinding Command="SystemCommands.MinimizeWindowCommand"
+						CanExecute="SystemCommands_CanExecute"
+						Executed="SystemCommands_Executed" />
+        <CommandBinding Command="SystemCommands.CloseWindowCommand"
+						CanExecute="SystemCommands_CanExecute"
+						Executed="SystemCommands_Executed" />
+        <CommandBinding Command="SystemCommands.RestoreWindowCommand"
+						CanExecute="SystemCommands_CanExecute"
+						Executed="SystemCommands_Executed" />
+        <CommandBinding Command="SystemCommands.MaximizeWindowCommand"
+						CanExecute="SystemCommands_CanExecute"
+						Executed="SystemCommands_Executed" />
+    </Window.CommandBindings>
+    <Window.TaskbarItemInfo>
+        <TaskbarItemInfo x:Name="WindowProgress"
+						 ProgressValue="{Binding Value, ElementName=Progress}" />
+    </Window.TaskbarItemInfo>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Label Panel.ZIndex="1" Grid.RowSpan="2"
+			   Content="{Binding Title, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}"
+			   Padding="0"
+			   HorizontalAlignment="Center"
+			   VerticalContentAlignment="Center"
+			   Style="{DynamicResource CrystalHeadings2}"
+			   MouseLeftButtonDown="Border_MouseLeftButtonDown" />
+        <StackPanel Name="chrome"
+					Panel.ZIndex="1"
+					Orientation="Horizontal"
+					Margin="0,-8,-8,0"
+					HorizontalAlignment="Right"
+					VerticalAlignment="Top">
+            <Button Content="—"
+					Template="{DynamicResource CrystalChromeButton}"
+					Focusable="False"
+					ToolTip="Minimize"
+					Command="SystemCommands.MinimizeWindowCommand"
+					WindowChrome.IsHitTestVisibleInChrome="True"
+					BorderThickness="0"
+					Height="20"
+					Margin="0"
+					Width="35" />
+            <Button Focusable="False"
+					Template="{DynamicResource CrystalChromeButton}"
+					Command="SystemCommands.RestoreWindowCommand"
+					ToolTip="Restore"
+					WindowChrome.IsHitTestVisibleInChrome="True"
+					BorderThickness="0"
+					Height="20"
+					Margin="0"
+					Width="35">
+                <Path Data="m 0,0 L 8,0  L 8,8 L 0,8z  m -3,3 L 5,3 L 5,11 L -3,11z m 0,1 L 5,4 m -5,-3 L 8,1"
+					  Stroke="Blue" />
+            </Button>
+            <Button Focusable="False"
+					Template="{DynamicResource CrystalChromeButton}"
+					Command="SystemCommands.MaximizeWindowCommand"
+					ToolTip="Maximize"
+					WindowChrome.IsHitTestVisibleInChrome="True"
+					BorderThickness="0"
+					Height="20"
+					Margin="0"
+					Width="35">
+                <Path Data="m 0,0 L 8,0  L 8,8 L 0,8z m 0,1 L 8,1"
+					  Stroke="Blue" />
+            </Button>
+            <Button Content="X"
+					Style="{DynamicResource CloseButton}"
+					Focusable="False"
+					Margin="0"
+					ToolTip="Close"
+					Command="SystemCommands.CloseWindowCommand"
+					WindowChrome.IsHitTestVisibleInChrome="True"
+					Height="20"
+					Width="35"
+					BorderThickness="0" />
+        </StackPanel>
+        <Border 				Grid.RowSpan="2"
+								Panel.ZIndex="0" />
+        <Button Name="AvatarButton"
+				Grid.Row="1"
+				Style="{DynamicResource CrystalIconButton}"
+				HorizontalAlignment="Right"
+				ToolTip="{Binding Content, ElementName=UserHeader}"
+				Margin="0,0,5,3"
+				Padding="0"
+				Click="Button_Click">
+            <Image Name="Avatar"
+				   Width="20"
+				   Height="20"
+				   Source="Generic Avatar (Unisex).png">
+                <Image.CacheMode>
+                    <BitmapCache SnapsToDevicePixels="False"
+								 RenderAtScale="2" />
+                </Image.CacheMode>
+                <Image.Clip>
+                    <EllipseGeometry RadiusX="10"
+									 Center="10,10"
+									 RadiusY="10" />
+                </Image.Clip>
+            </Image>
+        </Button>
+        <Popup Name="AvatarPopup"
+			   StaysOpen="False"
+			   Height="Auto"
+			   MinWidth="200"
+			   Width="Auto"
+			   PlacementTarget="{Binding ElementName=AvatarButton}"
+			   Opened="AvatarPopup_Opened"
+			   Closed="AvatarPopup_Closed">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Border Grid.RowSpan="3"
+						Grid.ColumnSpan="2"
+						BorderThickness="1"
+						Background="{DynamicResource PopupBackground}"
+						BorderBrush="{DynamicResource CrystalBorder}" />
+                <Label Name="UserHeader"
+					   Style="{DynamicResource CrystalHeadings2}"
+					   Content="Sign In" />
+                <Image Source="{Binding Source, ElementName=Avatar}"
+					   Height="28"
+					   Margin="4,0"
+					   Width="28"
+					   Grid.Column="1"
+					   HorizontalAlignment="Right">
+                    <Image.CacheMode>
+                        <BitmapCache SnapsToDevicePixels="False"
+									 RenderAtScale="2" />
+                    </Image.CacheMode>
+                    <Image.Clip>
+                        <EllipseGeometry Center="14,14"
+										 RadiusX="14"
+										 RadiusY="14" />
+                    </Image.Clip>
+                </Image>
+                <Frame Grid.Row="1"
+					   Grid.ColumnSpan="2"
+					   Name="SmallPane"
+					   Height="Auto"
+					   Source="SignIn1.xaml"
+					   NavigationUIVisibility="Hidden"
+					   JournalOwnership="UsesParentJournal">
+                </Frame>
+            </Grid>
+        </Popup>
+        <ProgressBar x:Name="Progress"
+					 Style="{DynamicResource MainProgress}"
+					 Margin="0,2"
+					 Maximum="1"
+					 HorizontalAlignment="Stretch"
+					 Grid.Row="2"
+					 VerticalAlignment="Bottom"
+					 Visibility="Collapsed" />
+        <Frame x:Name="MainFrame"
+			   Background="{DynamicResource CrystalWindowFill}"
+			   JournalOwnership="UsesParentJournal"
+			   Grid.Row="3"
+			   Source="Welcome.xaml"
+			   NavigationUIVisibility="Hidden" Navigated="MainFrame_Navigated" />
+
+    </Grid>
+
+</Window>
